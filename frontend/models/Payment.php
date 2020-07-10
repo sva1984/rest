@@ -1,11 +1,11 @@
 <?php
 
-namespace app\models;
+namespace frontend\models;
 
 use Yii;
 
 /**
- * This is the model class for table "payments".
+ * This is the model class for table "payment".
  *
  * @property int $id
  * @property string $card_num
@@ -13,14 +13,14 @@ use Yii;
  * @property float $price
  * @property int $date
  */
-class Payments extends \yii\db\ActiveRecord
+class Payment extends \yii\db\ActiveRecord
 {
     /**
      * {@inheritdoc}
      */
     public static function tableName()
     {
-        return 'payments';
+        return 'payment';
     }
 
     /**

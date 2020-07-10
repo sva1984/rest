@@ -52,7 +52,7 @@ return [
             'rules' => [
                 [
                     'class' => 'yii\rest\UrlRule',
-                    'controller' => ['order','v1/product' => 'v1/product'],
+                    'controller' => ['order', 'payments', 'v1/product' => 'v1/product'],
                     'pluralize' => false,
                 ],
                 [
